@@ -9,7 +9,7 @@ This Rails project contains a rake task to push local mongo database dump to AWS
   - Note down IAM user Access Key and Access Secret
 
 
-### Dependencies
+### Source File
 Please review file #{YOUR-APP-ROOT} - lib/tasks/mongo_backup.rake
 
 ### Installation
