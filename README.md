@@ -1,5 +1,6 @@
 ### About 
 This Rails project contains a rake task to push local mongo database dump to AWS S3.
+
 ### Version
 1.0.0
 
@@ -8,6 +9,8 @@ This Rails project contains a rake task to push local mongo database dump to AWS
   - AWS S3 bucket created with write permissions on an IAM user
   - Note down IAM user Access Key and Access Secret
 
+### ETA
+2 Hours from 11 AM IST to 1PM IST.
 
 ### Source File
 Please review file #{YOUR-APP-ROOT} - lib/tasks/mongo_backup.rake
