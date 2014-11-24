@@ -4,7 +4,14 @@ This Rails project contains a rake task to push local mongo database dump to AWS
 1.0.0
 
 ### Dependencies
-MongoDB on Ubuntu 12.04
+  - MongoDB on Ubuntu 12.04
+  - AWS S3 bucket created with write permissions on an IAM user
+  - Note down IAM user Access Key and Access Secret
+
+
+### Dependencies
+Please review file #{YOUR-APP-ROOT} - lib/tasks/mongo_backup.rake
+
 ### Installation
 You need MongoDB installed locally:
 
